@@ -1,0 +1,325 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following object is masked from ‘package:base’:
+
+    date
+
+
+Attaching package: ‘curl’
+
+The following object is masked from ‘package:httr’:
+
+    handle_reset
+
+Loading required package: DBI
+Attaching RPushbullet version 0.3.3.
+Reading ~/.rpushbullet.json
+[1] "fhv success"
+[1] "med success"
+  COUNT(*)
+1     1067
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 414
+-> 
+>> format=json&data=2LMHJ5AT1FBL01390%3B4T1M11AK7LU874486%3B2HKRW6H35KH227200%3B1LNHL9EK8EG605709%3B1GKS2KE73ER233835%3B2LNBL8CV9BX753340%3BJTDZN3EU4D3230067%3B1FMCU9GXXEUC53511%3B2FAHP71V38X102400%3B2LNBL8CV4AX618605%3BJTDKB20UX87768542%3B4T1C31AK1LU526172%3B2LNBL8EV9BX762908%3B2FABP7AV0BX100570%3B4T1BF3EK4AU520355%3B1GNSKJKC1JR354453%3B2G61M5S36H9198908%3BWDDUG8FB9HA313452%3B5FNRL6H73JB057802%3B2C4RDGBG0DR683604
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:14 GMT
+<- Content-Length: 5656
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=2LMHJ5NK5DBL54043%3B5NPEB4ACXCH443814%3B4T4BF1FK5ER345774%3B2T3LWRFV2LW070053%3B1FMCU4K3XCKB45406%3B2FABP7BV9AX113752%3B5XYKTCA15BG006107%3B1GKS2HKC5FR100550%3BJTMBFREV5HJ146710%3B4T1G11AK7LU891611%3B5TDBKRFH6ES004479%3B5N1DL0MM6HC522448%3B2G61N5S30J9171061%3B4T1BD1FK9EU128034%3B5TDKK4CC3AS307807%3B5J6RM4H38GL127857%3B2G61M5S33K9112140%3B1G6DS5RKXL0126225%3B4T1BF1FK9FU479991
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:16 GMT
+<- Content-Length: 5358
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=1GKS2HKC5FR514668%3B4T1G11AK9LU352763%3B4T1G11AK6LU353532%3B5TDBZRBH5LS509279%3B5TDBZRBH2LS018412%3B4T1G11AK7LU354687%3B1FMCU4K31BKC32433%3B2C4RC1BG4DR510717%3B1FA6P0HDXG5126091%3B4T1C11AK6LU939422%3B1FAHP2E80EG167956%3B4T1B11HK9KU180653%3B5FNYF6H51LB037231%3B2FMGK5DC5ABB36422%3B4T1G11AK5LU354462%3B5NPD84LF4JH368834%3B5TDJZRFH9KS719873%3B1HGCR2F81FA132393%3B5TDJZRFH3HS387986
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:20 GMT
+<- Content-Length: 5026
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 414
+-> 
+>> format=json&data=5NPE34AF9FH084578%3B1N4AL3AP4DC275227%3B1HGCR2F12HA223498%3B1GYS4GKJ9JR114288%3B2T3JFREVXGW511460%3B4T4BF1FK2GR528763%3B5TDDZ3DC6JS195016%3BYV4A22PL2K1424431%3B5NPD84LF3JH364032%3B5NPD84LF0JH365851%3B5NPD84LF8JH368383%3B4T1BD1FK3GU179970%3B4T1BF1FK5FU497551%3B2FABP7AV9BX112720%3B5TDBZRFH0KS709611%3B1GNSKHKC6HR169947%3B1HGCR2F37GA054918%3B4JGDA5HB7FA553342%3B1GYS4HKJ7GR356883%3B4T1BF1FK8FU114895
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:22 GMT
+<- Content-Length: 6137
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=5N1AR2MM5GC604053%3B2FABP7AV5BX153801%3B4T1BF1FK2GU186631%3B2T1BURHE4EC022100%3B1GNSKJKC7FR503519%3B5UXKR6C54G0J80441%3B4T1B11HK6KU169948%3B1GNSKJKC1FR186577%3B1GNSKHKC3KR207917%3B5NPD84LFXJH364206%3B19XFC2F52GE238756%3B2C4RDGCG9DR609547%3B4T4BF1FK7ER341029%3B5NPD84LF7JH364082%3B2G61N5S30J9154597%3B5TDBKRFH4FS092630%3B2MEFM74V56X634281%3B1HGCV1F36KA130000%3B2G1115S33G9173705
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:24 GMT
+<- Content-Length: 5929
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=1GNSKHKC3GR387794%3B2T3BFREV4FW284723%3B5NPD84LF7JH353308%3BJTMMWRFV8KD021598%3B5TDKK3DC1ES455808%3BKM8J33A49HU404980%3B5FNYF6H54LB056419%3B1GYS4GKJ7LR210973%3B1GNSKHKC7KR129187%3B4T1C31AK4LU522410%3B4T1C31AK4LU527123%3B4T1BF1FK6FU943044%3B4T1BK1EB7DU029055%3B1GNSKHKC0KR186637%3B3GNAXJEV6JS545809%3B2G61N5S35G9182713%3B2LNBL8EV0BX765387%3B1GNSKGKC4KR238152%3B3CZRU6H70GM701350
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:25 GMT
+<- Content-Length: 5512
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 414
+-> 
+>> format=json&data=2T3F1RFV9LW095270%3B1HGCV1F35KA169435%3B5NPEC4AC5BH057247%3B3N1AB7AP2JY301107%3B1HGCV1F31LA053991%3B4T1BD1FK6FU149571%3B1GNSKHKC7HR167687%3BJN8AE2KP0F9121406%3B2HKRW2H85JH626224%3B5TDJZRFH8JS526516%3B2C4RDGCG9FR743591%3B5NPE34AF8HH555171%3B4T1BF1FK1CU031126%3B1GYKNDRS9HZ250621%3B1GYS4KKJ1GR334066%3B5NPE24AF9KH819444%3B4T4BF1FK9ER372489%3B5FNYF6H50HB037261%3B1FAHP2L84FG117789%3B4T1BF1FK3GU139205
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:28 GMT
+<- Content-Length: 5881
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=4T1BF1FK3CU188673%3B2G61U5S36J9126404%3B4T1BF1FK5GU139528%3B4T1BF1FKXFU113635%3B2G61U5S30J9128214%3B4T1BF1FK2EU752591%3B3CZRE4H56BG702378%3B4T1BF1FK0HU689365%3B4T1B11HK6KU214368%3B4S4BRBCCXE3205164%3B3FA6P0H72ER139678%3B5TDZK3DC5FS529571%3B1LN6L9HK2H5627367%3B4T1BD1FKXEU106060%3BJN8AZ1MW7AW124994%3B4T1BD1EB2GU053228%3B1LNHL9DK3DG605519%3BJTNB11HK4J3038246%3B4T1BF1FK1HU343969
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:30 GMT
+<- Content-Length: 4472
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 394
+-> 
+>> format=json&data=JM3TCBEY5H0128297%3B1HGCV1F15JA076315%3BKNDMB5C16K6540014%3BJTMBFREV9JJ203030%3B58ABZ1B16KU036012%3BJTJBM7BX2L5250974%3B5LMJJ2JT1KEL07309%3B4T1B31HK0KU008988%3B1GNSKJKC0FR229628%3B4T1BF1FK1HU422672%3B1G1ZE5ST7GF254723%3BJTHBW1GG3G2101451%3B55SWF4KB8GU141729%3B2T3RFREV7JW793146%3B5TDDZRFH2JS858447%3B5FNRL5H62FB064409%3B1GNSKHKC0JR192341%3B4T1B11HK9KU165599%3B2LNHM85VX9X609987
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:31 GMT
+<- Content-Length: 6267
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+-> POST /api/vehicles/DecodeVINValuesBatch/ HTTP/1.1
+-> Host: vpic.nhtsa.dot.gov
+-> User-Agent: libcurl/7.58.0 r-curl/4.3 httr/1.4.1
+-> Accept-Encoding: deflate, gzip
+-> Accept: application/json, text/xml, application/xml, */*
+-> Content-Type: application/x-www-form-urlencoded
+-> Content-Length: 414
+-> 
+>> format=json&data=5TDJKRFH6GS344181%3B2T3LWRFV3LW067002%3BJTMA1RFV3LD526225%3B5NPDH4AE9DH219382%3B1LN6L9SK7K5600617%3B4T1BK1EB1DU013319%3B5TDJZRFH9JS523267%3B5TDJZ3DC5LS234801%3B5TDZZ3DC5LS062725%3B5TDZZ3DC7LS059826%3B5TDYK3DC5FS623431%3B5TDZZ3DC2LS064982%3B5YJSA1E28JF280937%3B5TDZZ3DC4LS063929%3B5TDKZ3DC3JS939629%3B1N4BZ1CP4LC301909%3B5TDBKRFH2FS173660%3B4T1BF1FK0HU391883%3B5TDYZ3DC4HS793553%3B4T1BD1FK4FU150833
+
+<- HTTP/1.1 200 OK
+<- Cache-Control: no-cache
+<- Pragma: no-cache
+<- Content-Type: application/json
+<- Expires: -1
+<- Server: Microsoft-IIS/8.5
+<- X-AspNet-Version: 4.0.30319
+<- X-Powered-By: ASP.NET
+<- Access-Control-Allow-Origin: *
+<- SSL-TLS: TLSv1.2
+<- Vary: Accept-Encoding
+<- Content-Encoding: gzip
+<- Date: Thu, 02 Apr 2020 20:30:33 GMT
+<- Content-Length: 4665
+<- Connection: keep-alive
+<- Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+<- 
+No encoding supplied: defaulting to UTF-8.
+[1] "success!!!"
+Warning message:
+In .local(conn, statement, ...) :
+  Decimal MySQL column 3 imported as numeric

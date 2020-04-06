@@ -11,7 +11,7 @@
   cmd
 
   cron_add(cmd,
-           frequency = '05 22 * * 2',
+           frequency = '21 16 * * 2',
            at = '16:06' ,
-           id = 'jon1',
+           id = 'jon2',
           description = 'decoderBackend. Every 1 min')

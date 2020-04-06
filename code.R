@@ -215,7 +215,7 @@ if (nrow(newVins) > 0){
   
   #update the table-----------------------------------------
   #1 
-  dbWriteTable(mydb, 'decodedVINS', dbVins, row.names=FALSE, append=TRUE)
+  dbWriteTable(mydb, 'decodedVINS', data, row.names=FALSE, append=TRUE)
   pbPost("note", "Decoder BackEnd Completed", paste0(nrow(data), "added, ",countBefore-countAfter," deleted." ))
   print('success!!!')
   poolClose(mydb)
@@ -225,10 +225,11 @@ if (nrow(newVins) > 0){
   poolClose(mydb)
 }
 
-}
+} else {
 
 pbPost("note", "Decoder BackEnd Completed", "Resulted in Error")
 poolClose(mydb)
+}
 ##########################################################################################
 
 
