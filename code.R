@@ -19,7 +19,7 @@ library(RSocrata)
 mydb <- dbPool(
   drv = RMySQL::MySQL(),
   dbname = "plagueDB",
-  host = "67.83.57.25",
+  host = "68.198.26.175",
   port = 3308,
   username = "root1",
   password = "Nv0ev0din!"
